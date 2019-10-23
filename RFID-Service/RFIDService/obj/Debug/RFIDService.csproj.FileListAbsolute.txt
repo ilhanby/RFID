@@ -1,0 +1,12 @@
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.ProjectInstaller.resources
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.Service1.resources
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe.config
+C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.pdb
+C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\DLRFIDLibrary.dll
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.csproj.CopyComplete
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.exe
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.pdb
+C:\Users\Asus\source\repos\RFIDService\RFIDService\obj\Debug\RFIDService.csprojAssemblyReference.cache

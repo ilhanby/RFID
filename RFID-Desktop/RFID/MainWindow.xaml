@@ -1,0 +1,91 @@
+﻿<Controls:MetroWindow x:Class="RFID.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:RFID"
+        RenderOptions.ClearTypeHint="Auto" TextOptions.TextHintingMode="Animated"
+        mc:Ignorable="d" ShowTitleBar="True" ShowIconOnTitleBar="True" BorderThickness="1" SaveWindowPosition="True"
+        ResizeMode="CanResizeWithGrip" GlowBrush="{DynamicResource AccentBaseColorBrush}" WindowStartupLocation="CenterScreen"
+        Title="DRFID" MinHeight="600" MinWidth="800" Loaded="MetroWindow_Loaded" WindowStyle="SingleBorderWindow">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <WrapPanel HorizontalAlignment="Right" Margin="10,0">
+                <TextBlock Text="Tema :" Background="{x:Null}" FontSize="10" FontFamily="Segoe UI" Margin="5,0" VerticalAlignment="Center" />
+                <Controls:ToggleSwitch x:Name="toogle" VerticalAlignment="Center" Width="Auto" Checked="toogle_Checked" Unchecked="toogle_Unchecked"
+                                    Style="{StaticResource MahApps.Metro.Styles.ToggleSwitch.Win10}" FontFamily="Segoe UI" Cursor="Hand"
+                                    OnLabel="Dark" OffLabel="Light" IsChecked="False" HorizontalAlignment="Center" FontSize="9"  Margin="0,0,10,0" />
+                <TextBlock Text="Renk :" Background="{x:Null}" FontSize="10" FontFamily="Segoe UI" Margin="5,0" VerticalAlignment="Center"/>
+                <ComboBox x:Name="ColorsSelector" SelectionChanged="ColorsSelectorOnSelectionChanged" ItemsSource="{Binding Colors}" Background="{x:Null}" BorderThickness="0"  Margin="0,2,10,0" Cursor="Hand">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Key}" Background="{x:Null}" FontFamily="Segoe UI" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </WrapPanel>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <TextBox Controls:TextBoxHelper.Watermark="IP ADRESS" Controls:TextBoxHelper.ClearTextButton="True" x:Name="IPtxt" Width="150" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10"/>
+                <ToggleButton x:Name="connectionButton" Content="Connect" Width="80" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="200,10" Checked="connectionButton_Checked"/>
+                <GroupBox Background="{DynamicResource AccentBaseColorBrush}" Width="200" Height="120" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <Controls:ToggleSwitch x:Name="start" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
+                                               Checked="connect_Click" Unchecked="disconnect_Click" Style="{StaticResource MahApps.Metro.Styles.ToggleSwitch.Win10}" FontFamily="Segoe UI" Cursor="Hand"
+                                               OnLabel="STOP" OffLabel="START" IsChecked="False" FontSize="20" Height="40" Width="AUTO"/>
+                        <TextBlock x:Name="tagsfound" Grid.Row="1" Text="TAGS FOUND : " Margin="13,0" Width="80" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <TextBox x:Name="tagstxt" Grid.Row="1" Width="50" HorizontalContentAlignment="Center" HorizontalAlignment="Right" IsReadOnly="True" VerticalAlignment="Center" Margin="15,3,20,2"/>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+            <Grid>
+                <GroupBox Background="{DynamicResource AccentBaseColorBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="330,0,30,0">
+                    <Grid>
+                        <ListBox x:Name="loglst">
+
+                        </ListBox>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+        <DataGrid x:Name="datagrd" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" Background="{x:Null}" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible" >
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="EPCdt" Header="EPC" Width="2*" Binding="{Binding EPC}"/>
+                <DataGridTextColumn x:Name="Antennadt" Header="Antenna" Width="*" Binding="{Binding Antenna}"/>
+                <DataGridTextColumn x:Name="Countdt" Header="Count" Binding="{Binding Count}"/>
+                <DataGridTextColumn x:Name="Rssiddt" Header="RSSI" Binding="{Binding RSSI}"/>
+                <DataGridTextColumn x:Name="Timestampdt" Header="TimeStamp" Width="*" Binding="{Binding TimeStamp}"/>
+            </DataGrid.Columns>
+            <DataGrid.ColumnHeaderStyle>
+                <Style BasedOn="{StaticResource MetroDataGridColumnHeader}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="{DynamicResource AccentBaseColorBrush}"/>
+                    <Style.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsMouseOver" Value="True" />
+                                <Condition Property="SortDirection" Value="{x:Null}" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Background" Value="{DynamicResource HighlightBrush}" />
+                        </MultiTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+        </DataGrid>
+    </Grid>
+</Controls:MetroWindow>

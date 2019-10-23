@@ -1,0 +1,119 @@
+﻿'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin Geri Alma aşamasında özel durum oluştu.
+System.Security.SecurityException: Kaynak bulunamadı; ancak olay günlüklerinin bazılarında veya hiçbirinde arama yapılamadı. Erişilemeyen günlükler: Security.
+Yüklemenin Geri Alma aşamasında özel durum oluştu. Bu özel durum yoksayılacak ve geri alma devam edecek. Ancak geri alma tamamlandıktan sonra makine ilk durumuna tamamen dönemeyebilir.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin Geri Alma aşamasında özel durum oluştu.
+System.Security.SecurityException: Kaynak bulunamadı; ancak olay günlüklerinin bazılarında veya hiçbirinde arama yapılamadı. Erişilemeyen günlükler: Security.
+Yüklemenin Geri Alma aşamasında özel durum oluştu. Bu özel durum yoksayılacak ve geri alma devam edecek. Ancak geri alma tamamlandıktan sonra makine ilk durumuna tamamen dönemeyebilir.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin Geri Alma aşamasında özel durum oluştu.
+System.Security.SecurityException: Kaynak bulunamadı; ancak olay günlüklerinin bazılarında veya hiçbirinde arama yapılamadı. Erişilemeyen günlükler: Security.
+Yüklemenin Geri Alma aşamasında özel durum oluştu. Bu özel durum yoksayılacak ve geri alma devam edecek. Ancak geri alma tamamlandıktan sonra makine ilk durumuna tamamen dönemeyebilir.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin Geri Alma aşamasında özel durum oluştu.
+System.Security.SecurityException: Kaynak bulunamadı; ancak olay günlüklerinin bazılarında veya hiçbirinde arama yapılamadı. Erişilemeyen günlükler: Security.
+Yüklemenin Geri Alma aşamasında özel durum oluştu. Bu özel durum yoksayılacak ve geri alma devam edecek. Ancak geri alma tamamlandıktan sonra makine ilk durumuna tamamen dönemeyebilir.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+System.Diagnostics.EventLogInstaller yükleyicisinin Geri Alma aşamasında özel durum oluştu.
+System.Security.SecurityException: Kaynak bulunamadı; ancak olay günlüklerinin bazılarında veya hiçbirinde arama yapılamadı. Erişilemeyen günlükler: Security.
+Yüklemenin Geri Alma aşamasında özel durum oluştu. Bu özel durum yoksayılacak ve geri alma devam edecek. Ancak geri alma tamamlandıktan sonra makine ilk durumuna tamamen dönemeyebilir.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID hizmeti yükleniyor...
+Application günlüğünde RFID EventLog kaynağı oluşturuluyor...
+'C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe' derlemesi geri alınıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   logfile = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.InstallLog
+   assemblypath = C:\Users\Asus\source\repos\RFIDService\RFIDService\bin\Debug\RFIDService.exe
+RFID kaynağı için olay günlüğü önceki duruma döndürülüyor.
